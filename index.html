@@ -9,8 +9,8 @@
 
     <title>Google</title>
 </head>
-
-<body>
+<div class="viewport" id="view">
+<body class="body" id="body">
     <div class="nav">
         <ul class="ul">
             <li>
@@ -29,7 +29,8 @@
                     <div class="notblk"></div>
                 </a>
                 <li class="acct">
-                    <a href="#" title="Google account: Example Account <br>Example@gmail.com">
+                    <a href="#" title="Google account: Example Account
+(Example@gmail.com)">
                         <div class="actblk"></div>
                     </a>
                 </li>
@@ -40,43 +41,43 @@
         <form class="sform" action="http://www.google.com/search" method="get">
             <input type="search" name="q" id="sbox">
             <div>
-                <input type="submit" value="Google Search" autocomplete="on" required>
-                <input type="reset" value="I'm Feeling Lucky ">
+                <input id="inp1" type="submit" value="Google Search" autocomplete="on" required>
+                <input id="inp2" type="reset" value="I'm Feeling Lucky ">
             </div>
         </form>
-        <p>Google Offered In:
+        <p id="lang">Google Offered In:
             <a href="#">Hausa</a>
             <a href="#">Yoruba</a>
             <a href="#">Igbo</a>
         </p>
     </div>
-    <footer>
-        <p>Nigeria</p>
-        <div class="fp">
-            <ul class="l1">
-                <li>
-                    <a href="#">Advertising</a>
-                </li>
-                <li>
-                    <a href="#">Business</a>
-                </li>
-                <li>
-                    <a href="#">About</a>
-                </li>
-            </ul>
-            <ul class="l2">
-                <li>
-                    <a href="#">Privacy</a>
-                </li>
-                <li>
-                    <a href="#">Terms</a>
-                </li>
-                <li>
-                    <a href="#">Settings</a>
-                </li>
-            </ul>
-        </div>
-    </footer>
 </body>
-
+        <footer>
+            <p>Nigeria</p>
+            <div class="fp">
+                <ul class="l1">
+                    <li>
+                        <a href="#">Advertising</a>
+                    </li>
+                    <li>
+                        <a href="#">Business</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                </ul>
+                <ul class="l2">
+                    <li>
+                        <a href="#">Privacy</a>
+                    </li>
+                    <li>
+                        <a href="#">Terms</a>
+                    </li>
+                    <li>
+                        <a href="#">Settings</a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </div>
 </html>
