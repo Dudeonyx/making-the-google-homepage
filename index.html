@@ -6,36 +6,43 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style/reset.css">
     <link rel="stylesheet" href="style/style.css">
-    
+
     <title>Google</title>
 </head>
 
 <body>
     <div class="nav">
         <ul class="ul">
-            <li><a href="#">Gmail</a></li>
-            <li><a href="#">Images</a></li>
-            <li  class="notif"> 
-                <ul>
-                    <li>0 Google notifications</li>
-                </ul>
+            <li>
+                <a href="#">Gmail</a>
             </li>
-            <li class="acct">U
-                <ul>
-                    <li class="dets2">
-                        <p>Google account: Umeayo Onyekachukwu</p>
-                        <p>um****.o.h@gmail.com</p>
-                    </li>
-                </ul>
+            <li>
+                <a href="#">Images</a>
             </li>
+            <li class="app">
+                <a href="#" title="Google Apps">
+                    <div class="appblk"></div>
+                </a>
+            </li>
+            <li class="notif">
+                <a href="#" title="0 Google notifications">
+                    <div class="notblk"></div>
+                </a>
+                <li class="acct">
+                    <a href="#" title="Google account: Example Account <br>Example@gmail.com">
+                        <div class="actblk"></div>
+                    </a>
+                </li>
         </ul>
     </div>
     <div class="sblock">
         <img src="images/googlelogo_color_272x92dp.png" alt="Google logo">
-        <form class="sform" action="www.google.com/search" method="get">
+        <form class="sform" action="http://www.google.com/search" method="get">
             <input type="search" name="q" id="sbox">
-            <input type="submit" value="Google Search" autocomplete="on" required>
-            <input type="reset" value="I'm Feeling Lucky ">
+            <div>
+                <input type="submit" value="Google Search" autocomplete="on" required>
+                <input type="reset" value="I'm Feeling Lucky ">
+            </div>
         </form>
         <p>Google Offered In:
             <a href="#">Hausa</a>
@@ -45,8 +52,8 @@
     </div>
     <footer>
         <p>Nigeria</p>
-        <p>
-            <ul>
+        <div class="fp">
+            <ul class="l1">
                 <li>
                     <a href="#">Advertising</a>
                 </li>
@@ -57,7 +64,7 @@
                     <a href="#">About</a>
                 </li>
             </ul>
-            <ul>
+            <ul class="l2">
                 <li>
                     <a href="#">Privacy</a>
                 </li>
@@ -68,6 +75,7 @@
                     <a href="#">Settings</a>
                 </li>
             </ul>
+        </div>
     </footer>
 </body>
 

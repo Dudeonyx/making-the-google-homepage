@@ -1,76 +1,25 @@
 body {
-    font-size: 12px;
-    font-family: Arial, Helvetica, "open sans";
+    font-size: 13px;
+    font-family: "open sans", Arial, Helvetica;
     line-height: 1;
 }
 
-
 li {
-    display: inline;
-    position: relative;
-}
-
-.nav {
-    height: 11px;
-    margin: 20px 0 0 0;
-    position: relative;
-    /* background-color: springgreen */
-}
-.nav ul {
-    float: right;
-}
-
-.nav * li {
-    margin: 0 10px 0 10px;
-}
-
-
-li.notif {
-    /* height:30px ;
-    width: 26px; */
-    background-color: darkslategrey;
-    border-radius: 15px;
-    top: 5px;
-    padding: 10px;
-    margin-left: 40px;
-}
-
-.acct,
-.notif {
     display: inline-block;
-    /* position: relative; */
+    position: relative;
 }
+div.nav{
+    height: 20px;
+    margin-top: 10px;
+}
+ div.nav ul{
+     float: right;
+     /* display: inline-block; */
+     /* position: relative; */
+ }
 
-.acct {
-    background-color: slateblue;
-    border-radius: 50px;
-    padding: 15px;
-    text-align: center;
-    color: white;
-}
-.acct ul .dets2, .notif ul li{
-    width: max-content;
-    right:-40%;
-    top: 110%;
-    position: absolute;
-    color: black;
-    background-color: white;
-    padding: 10px;
-    border: black 1px solid;
-    box-shadow: black 0px 3px 5px;
-}
-ul li ul li {
-    visibility: hidden;
-    position: absolute;
-}
-.acct:hover ul li {
-    visibility: visible;
-}
-.notif:hover ul li {
-    visibility: visible;
-}
-.sblock {
-    width: 600px;
-    margin: 0 auto;
-    margin: 200 auto 0 auto;
+.sblock{
+    margin: 100px auto 0 auto;
+    width: fit-content;
+    padding: 0;
 }
