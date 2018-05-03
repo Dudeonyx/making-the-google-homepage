@@ -65,20 +65,22 @@ div.nav{
 
 .sblock{
     margin: 0 auto 0 auto;
-    width: fit-content;
+    /* width: 100%; */
     padding: 0;
     position: absolute;
     top:22%;
     right: 0;
     left: 0;
+    text-align: center;
     /* box-sizing: border-box; */
 }
 .sblock img{
     transform: scale(0.5);
 }
 #sbox,#sbox:hover,#sbox:active,#sbox:focus{
-width: 100%;
-height: 2.3rem;
+width: 450px;
+min-width: 50%;
+height: 2.7rem;
 font: normal 2rem/1.6;
 border: 0px grey solid;
 box-shadow: 0 1px 3px 0px ;
