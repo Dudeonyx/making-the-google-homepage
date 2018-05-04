@@ -136,9 +136,19 @@ footer div ul.l2{
     padding-right: 20px;
     float: right;
 }
-footer p {
+footer div{
+    clear: both;
+}
+footer #p1 {
     padding-left: 32px;
+    float: left;
     font-size: 16px;
+}
+#p2{
+    font-size: 16px;
+    padding-right: 32px;
+    float: right;
+    color: rgba(190, 190, 190, 0.295);
 }
 footer p,footer div.fp{
     border:solid rgba(167, 167, 167, 0.199);
