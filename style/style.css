@@ -1,4 +1,4 @@
-div.viewport#viewport {
+.viewport#viewport {
     font-size: 13px;
     font-family: "open sans", Arial, Helvetica;
     line-height: 1;
@@ -23,11 +23,11 @@ li {
     width: 100%;
 }
 
-.nav ul {
+.navList {
     float: right;
 }
 
-.nav ul li {
+.navList li {
     margin: 0 10px 0 10px;
 }
 
@@ -109,10 +109,6 @@ img {
     color: blue;
 }
 
-.sblock a:hover {
-    text-decoration: underline;
-}
-
 footer {
     position: absolute;
     bottom: 0;
@@ -157,6 +153,7 @@ footer p,
     border-width: 1px 0 0 0;
 }
 
-footer div ul li {
+.l1 li,
+.l2 li {
     padding: 0 12px;
 }
