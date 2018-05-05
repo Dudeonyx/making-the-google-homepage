@@ -82,11 +82,13 @@ img {
     width: 450px;
     min-width: 50%;
     height: 2.7rem;
-    font: normal 2rem/1.6;
     border: 0px grey solid;
     box-shadow: 0 1px 3px 0px;
     margin-bottom: 20px;
     padding: 0 1rem;
+}
+#sbox:focus {
+    outline: none;
 }
 
 #inp1,
