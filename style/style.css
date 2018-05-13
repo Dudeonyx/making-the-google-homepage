@@ -73,18 +73,26 @@ img {
     transform: scale(0.5);
     flex: 0 auto;
 }
-form{
-    display: flex;
-    flex-flow: column;
+
+.sformcont{
+
+    width: 100%;
+    text-align: center;
+    
+}
+.sform{
+    max-width: 600px;
+    margin: 0 auto;
 }
 .sbox {
-    min-width:550px ;
-    flex: 1 100%;
+    width: 100%;
+    margin: 0 auto;
     line-height: 3.5em;
     border: 0px grey solid;
     box-shadow: 0 1px 3px 0px;
     margin-bottom: 20px;
     padding: 0 1rem;
+    
 }
 .sbox:focus {
     outline: none;
