@@ -1,4 +1,4 @@
-.viewport#viewport {
+.viewport {
     font-size: 13px;
     font-family: "open sans", Arial, Helvetica;
     line-height: 1;
@@ -78,7 +78,7 @@ img {
     transform: scale(0.5);
 }
 
-#sbox {
+.sbox {
     width: 450px;
     min-width: 50%;
     height: 2.7rem;
@@ -87,12 +87,12 @@ img {
     margin-bottom: 20px;
     padding: 0 1rem;
 }
-#sbox:focus {
+.sbox:focus {
     outline: none;
 }
 
-#inp1,
-#inp2 {
+.inp1,
+.inp2 {
     height: 2.5rem;
     padding: 0 1rem;
     background-color: rgb(243, 243, 243);
@@ -102,7 +102,7 @@ img {
     color: rgb(116, 116, 116);
 }
 
-#lang {
+.lang {
     margin: 20px auto;
     word-spacing: 0.2rem;
 }
@@ -136,13 +136,13 @@ footer {
     clear: both;
 }
 
-#p1 {
+.p1 {
     padding-left: 32px;
     float: left;
     font-size: 16px;
 }
 
-#p2 {
+.p2 {
     font-size: 16px;
     padding-right: 32px;
     float: right;
