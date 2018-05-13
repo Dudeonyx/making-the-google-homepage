@@ -1,33 +1,29 @@
-.viewport {
+.body {
     font-size: 13px;
     font-family: "open sans", Arial, Helvetica;
-    line-height: 1;
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    min-width: 540px;
-    min-height: 500px;
+    display: flex;
+    flex-flow: column;
+    /* width: 100%;*/
+    min-height: 100vh;
+    /* min-width: 540px; */
+    /* min-height: 500px; */
 }
 
-li {
-    display: inline-block;
-    vertical-align: middle;
-}
 
 .nav {
-    position: absolute;
-    top: 10px;
-    width: 100%;
+    flex: 1 auto;
+    padding: 10px 10px 10px 0;
 }
 
 .navList {
-    float: right;
+    display:flex;
+    flex-flow: row;
+    justify-content:flex-end;
+    align-items: center;
 }
 
 .navList li {
+    flex:0 auto;
     margin: 0 10px 0 10px;
 }
 
@@ -37,14 +33,14 @@ a:hover {
 
 .appblk,
 .notblk {
-    height: 28px;
-    width: 28px;
+    height: 2em;
+    width: 2em;
     background: url("../images/i1_1967ca6a.png")top left;
 }
 
 .actblk {
-    height: 35px;
-    width: 35px;
+    height: 2.71em;
+    width: 2.71em;
     background-image: url(../images/photo.png);
     background-position: -3px -2px;
     background-size: 39px;
@@ -52,8 +48,8 @@ a:hover {
 }
 
 .notblk {
-    height: 25px;
-    width: 25px;
+    height: 1.87em;
+    width: 1.87em;
     background-color: darkslategray;
     border-radius: 50%;
     background-size: 423px;
@@ -65,23 +61,26 @@ a:hover {
 }
 
 .sblock {
-    margin: 0 auto 0 auto;
+    flex: 50 auto;
     padding: 0;
-    position: absolute;
-    width: 100%;
-    top: 50%;
-    transform: translateY(-50%);
-    text-align: center;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
 }
 
 img {
     transform: scale(0.5);
+    flex: 0 auto;
 }
-
+form{
+    display: flex;
+    flex-flow: column;
+}
 .sbox {
-    width: 450px;
-    min-width: 50%;
-    height: 2.7rem;
+    min-width:550px ;
+    flex: 1 100%;
+    line-height: 3.5em;
     border: 0px grey solid;
     box-shadow: 0 1px 3px 0px;
     margin-bottom: 20px;
@@ -90,15 +89,16 @@ img {
 .sbox:focus {
     outline: none;
 }
-
+.btns{
+    margin: 0 auto;
+}
 .inp1,
 .inp2 {
-    height: 2.5rem;
-    padding: 0 1rem;
+    padding: 1.3rem;
     background-color: rgb(243, 243, 243);
     border: none;
     font-size: 0.9rem;
-    font-weight: 500;
+    font-weight: 700;
     color: rgb(116, 116, 116);
 }
 
@@ -112,10 +112,9 @@ img {
 }
 
 footer {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
+    flex: 2 auto;
+    display: flex;
+    flex-flow: row wrap;
     background-color: rgba(197, 197, 197, 0.185);
     line-height: 2.8;
     font-size: 13px;
@@ -123,38 +122,36 @@ footer {
 }
 
 .l1 {
-    float: left;
     padding-left: 20px;
 }
 
 .l2 {
     padding-right: 20px;
-    float: right;
 }
 
-.fp {
-    clear: both;
-}
 
 .p1 {
     padding-left: 32px;
-    float: left;
     font-size: 16px;
 }
 
 .p2 {
     font-size: 16px;
     padding-right: 32px;
-    float: right;
     color: rgba(190, 190, 190, 0.295);
 }
 
 footer p,
 .fp {
+    flex: 1 100%;
+    display: flex;
     border: solid rgba(167, 167, 167, 0.199);
     border-width: 1px 0 0 0;
+    justify-content:space-between;
 }
-
+.fp ul{
+    display: flex;
+}
 .l1 li,
 .l2 li {
     padding: 0 12px;
